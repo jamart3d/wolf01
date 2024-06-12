@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
               min: 0,
               max: _duration.inSeconds.toDouble(),
               inactiveColor: Colors.grey,
-              activeColor: Colors.red,
+              activeColor: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                   child: const Icon(
                       Icons.fast_rewind,
-                      color: Colors.red,
+                      color: Colors.black,
                       size: 50,)
                 ),
                 const SizedBox(width: 20),
@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: playPause,
                   child: Icon(
                     isPlaying ? Icons.pause_circle : Icons.play_circle,
-                    color: Colors.red,
+                    color: Colors.black,
                     size: 100,
                   ),
                 ),
@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                   child: const Icon(
                     Icons.fast_forward,
-                    color: Colors.red,
+                    color: Colors.black,
                     size: 50,
                   ),
                 ),

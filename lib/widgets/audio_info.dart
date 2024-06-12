@@ -8,20 +8,35 @@ class AudioInfo extends StatelessWidget {
     return Column(
       children: [
         Image.asset(
-          'images/steal_3.png',
+          'images/workingman_s_dead.png',
           width: 250,
         ),
         const SizedBox(height: 30),
         const Text(
-          'Wolf',
+          'Dire Wolf',
           style: TextStyle(fontSize: 30),
         ),
         const SizedBox(height: 20),
         const Text(
-          'Dead',
+          'Grateful Dead',
           style: TextStyle(
             fontSize: 16,
-            color: Colors.red,
+            fontWeight: FontWeight.bold,
+            fontStyle: FontStyle.italic,
+            decoration: TextDecoration.underline,
+            decorationColor: Colors.red,
+            decorationThickness: 2,
+            letterSpacing: 2,
+            wordSpacing: 2,
+            shadows: [
+              Shadow(
+                color: Colors.blue,
+                offset: Offset(2, 2),
+                blurRadius: 4,
+              ),
+            ],
+
+            color: Colors.black,
           ),
         ),
       ],
