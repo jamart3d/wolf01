@@ -8,7 +8,7 @@ class AudioInfo extends StatelessWidget {
     return Column(
       children: [
         Image.asset(
-          'images/workingman_s_dead.png',
+          'assets/images/workingman_s_dead.png',
           width: 250,
         ),
         const SizedBox(height: 30),
@@ -23,14 +23,9 @@ class AudioInfo extends StatelessWidget {
             fontSize: 16,
             fontWeight: FontWeight.bold,
             fontStyle: FontStyle.italic,
-            decoration: TextDecoration.underline,
-            decorationColor: Colors.red,
-            decorationThickness: 2,
-            letterSpacing: 2,
-            wordSpacing: 2,
             shadows: [
               Shadow(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 107, 107, 107),
                 offset: Offset(2, 2),
                 blurRadius: 4,
               ),

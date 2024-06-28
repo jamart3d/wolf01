@@ -1,8 +1,8 @@
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/utils/utils.dart';
-import 'package:myapp/widgets/audio_info.dart';
+import 'package:wolf1/utils/utils.dart';
+import 'package:wolf1/widgets/audio_info.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -62,6 +62,9 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {});
   }
 
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const AudioInfo(),
-            const SizedBox(height: 50),
+            const SizedBox(height: 25),
             Slider(
               value: _position.inSeconds.toDouble(),
               onChanged: (value) async {
@@ -90,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(_duration.format()),
               ],
             ),
-            const SizedBox(height: 50),
+            const SizedBox(height: 25),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
