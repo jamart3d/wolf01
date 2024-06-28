@@ -1,10 +1,10 @@
+<!-- Suggested code may be subject to a license. Learn more: ~LicenseLog:1491062558. -->
 # wolf1
 
-This project, named "wolf01", is a new Flutter application. It serves as a starting point for developing a Flutter app.
+This project, named "wolf01", is a simple music player, that plays one song"
+ It serves as a starting point for developing a Flutter music app.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
