@@ -7,7 +7,7 @@
 
 # wolf1
 
-This is a simple music player app made in flutter, that plays one song
+This is a simple music player app made in flutter, that plays one song.<BR>
  It serves as a starting point for developing a Flutter music app.
 
 ## Getting Started
