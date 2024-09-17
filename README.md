@@ -1,7 +1,6 @@
-<!-- Suggested code may be subject to a license. Learn more: ~LicenseLog:1491062558. -->
 # wolf1
 
-This project, named "wolf01", is a simple music player, that plays one song
+This is a simple music player app made in flutter, that plays one song
  It serves as a starting point for developing a Flutter music app.
 
 ## Getting Started
